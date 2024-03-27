@@ -1,0 +1,2 @@
+last(split(outputs('Split_Body_Text')[11],': ')) ##input:"Customer: Sebastian" ---> Output "Sebastian"
+trim(last(split(outputs('Split_Body_Text')[11], ':'))) ##input:"Customer: Sebastian" ---> Output "Sebastian"
